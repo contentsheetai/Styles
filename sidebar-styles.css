@@ -1,0 +1,109 @@
+/* Shared styles for all sidebars */
+
+/* Base styling adjustments */
+.container {
+    font-size: 0.9rem !important;
+}
+
+.label {
+    font-size: 0.85rem !important;
+    font-weight: 600 !important;
+}
+
+.input, .select select {
+    font-size: 0.85rem !important;
+    height: 2.25em !important;
+}
+
+/* Custom button styles */
+.button {
+    font-size: 0.8rem !important;
+    height: 2em !important;
+    padding: 0 0.75em !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.4em !important;
+}
+
+/* Update/Save button - Green with disk icon */
+.btn-update {
+    background-color: #0A6522 !important;
+    border-color: #0A6522 !important;
+    color: white !important;
+}
+
+.btn-update:hover {
+    background-color: #085018 !important;
+    border-color: #085018 !important;
+}
+
+.btn-update:focus {
+    box-shadow: 0 0 0 0.125em rgba(10, 101, 34, 0.25) !important;
+}
+
+/* Refresh button - Keep info color but add icon */
+.btn-refresh {
+    background-color: #3e8ed0 !important;
+    border-color: #3e8ed0 !important;
+    color: white !important;
+}
+
+.btn-refresh:hover {
+    background-color: #3082c5 !important;
+    border-color: #3082c5 !important;
+}
+
+/* Generate button - Purple theme */
+.btn-generate {
+    background-color: #8B5CF6 !important;
+    border-color: #8B5CF6 !important;
+    color: white !important;
+}
+
+.btn-generate:hover {
+    background-color: #7C3AED !important;
+    border-color: #7C3AED !important;
+}
+
+.btn-generate:focus {
+    box-shadow: 0 0 0 0.125em rgba(139, 92, 246, 0.25) !important;
+}
+
+/* Icon styles */
+.btn-icon {
+    width: 12px !important;
+    height: 12px !important;
+    flex-shrink: 0 !important;
+}
+
+/* Notification adjustments */
+.notification {
+    font-size: 0.8rem !important;
+    padding: 0.75rem !important;
+}
+
+/* Button group spacing */
+.field.is-grouped .control:not(:last-child) {
+    margin-right: 0.5rem !important;
+}
+
+/* Responsive adjustments */
+.select.is-fullwidth select {
+    width: 100% !important;
+}
+
+/* Status message improvements */
+.notification.is-success {
+    background-color: #d1f7d6 !important;
+    color: #0f5132 !important;
+}
+
+.notification.is-danger {
+    background-color: #f8d7da !important;
+    color: #721c24 !important;
+}
+
+.notification.is-info {
+    background-color: #d1ecf1 !important;
+    color: #055160 !important;
+}
