@@ -188,3 +188,55 @@
 .is-hidden {
     display: none !important;
 }
+
+/* === Styles for Website Copy & Blog Config Sidebars === */
+
+.writer-group {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #fafafa;
+}
+
+.help-content {
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.help-content.hidden {
+    opacity: 0;
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+
+.help-content.visible {
+    opacity: 1;
+    max-height: 200px; /* Adjust as needed */
+}
+
+.rotating-icon {
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Styles for the "Copy from Blog" section */
+.copy-section {
+    background-color: #e6f4ea; /* A light green background */
+    border: 1px solid #c8e6c9;
+    border-radius: 6px;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.copy-section p {
+    font-size: 0.8rem;
+    color: #2e7d32; /* A darker green text color */
+    margin-bottom: 0.5rem;
+}
