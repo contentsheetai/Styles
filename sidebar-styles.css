@@ -19,7 +19,11 @@
 .textarea {
     min-height: 120px !important;
 }
-
+/* --- Tab Sizing Fix --- */
+.tabs.is-boxed a {
+    font-size: 0.8rem !important;
+    padding: 0.5em 1em !important;
+}
 /* --- Standardized Buttons --- */
 .button {
     font-size: 0.8rem !important;
