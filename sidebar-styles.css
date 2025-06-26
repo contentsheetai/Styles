@@ -167,7 +167,10 @@
 
 /* Banned List Sidebar */
 .banned-list-section {
-   margin: 0.5rem !important;
+   margin-top: 0.5rem !important;
+   margin-bottom: 0.5rem !important;
+   margin-left: 0.5rem !important;
+   margin-right: 0.5rem !important;
 }
 .banned-list-section h3 {
     font-size: 1rem;
