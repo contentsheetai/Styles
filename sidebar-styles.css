@@ -21,7 +21,7 @@
 }
 /* --- Tab Sizing Fix --- */
 .tabs.is-boxed a {
-    font-size: 0.6rem !important;
+    font-size: 0.8rem !important;
     padding: 0.25em 0.5em !important;
 }
 /* --- Standardized Buttons --- */
